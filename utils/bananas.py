@@ -1,2 +1,0 @@
-def bananas():
-    print("Бананы")
