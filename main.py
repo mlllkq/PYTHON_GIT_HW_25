@@ -1,6 +1,3 @@
-from utils.file_utils import UTILS_CONST, file_util_foo
-from utils.api_utils import api_util_foo
-from utils.bananas import bananas
 from dotenv import load_dotenv
 import os
 
@@ -14,9 +11,6 @@ print(POLZA_API_KEY, IS_READY)
 # from utils import * # в __init__.py мы можем указать какие файлы нужно импортировать
 
 def main():
-    file_util_foo(UTILS_CONST)
-    api_util_foo("привет")
-    bananas()
     print("Моя програамма работает!!!")
 
 if __name__ == "__main__":
